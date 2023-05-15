@@ -19,6 +19,8 @@ function reservaTurno() {
     
    else {
 
+    alert("Su turno está reservado para el " + turnoFecha + " a las " + turnoHora + ":00.");
+
                 let trabajoARealizar= parseInt(prompt("Selecciona un Vehìculo  lavar:  1- Automóvil  2- Utilitario  3-  Camioneta"))
 
 
@@ -51,7 +53,7 @@ function reservaTurno() {
 
                 break    
 }
-      alert("Su turno está reservado para el " + turnoFecha + " a las " + turnoHora + ":00.");
+    
       
     }
   }
